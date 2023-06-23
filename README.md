@@ -15,7 +15,7 @@ In my example, I have a main admin account, production account and development a
 
 ## Project Setup
 
-To run the project, follow these steps:
+Here are some general guidelines for the project. To run the project, follow these steps:
 
 1. Install AWS CLI and configure it with your AWS credentials.
 
