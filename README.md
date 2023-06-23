@@ -1,7 +1,7 @@
 # organization-formation
 Manage AWS Organizations, create Organization Units, and provision accounts securely. 
 
-This project demonstrates the use of AWS OrgFormation and Python to manage AWS Organizations.
+This project demonstrates the use of AWS OrgFormation and Python to manage AWS Organizations. It was intended as my personal project. But others can use it or parts of it for their own project if they want to. 
 
 ## Project Overview
 
