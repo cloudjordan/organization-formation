@@ -27,9 +27,11 @@ Here are some general guidelines for the project. To run the project, follow the
 
 5. Update the `secret_manager.py` script with the necessary keys from AWS Secrets Manager. Replace the placeholders in the script with the actual keys to retrieve the sensitive data.
 
-6. Update the `organization.yml` file with your desired organization structure and placeholders for sensitive data.
+6. Update the `organization.yml` file with your desired organization structure and placeholders for sensitive data. Some other properties you may want to consider updating are Alias, AccountName and OrganizationalUnitName.
 
 7. Run the Python script (`secret_manager.py`) to update the `organization.yml` file with the actual values from Secrets Manager.
+   
+8. To execute the YAML file in AWS, you need to run this command. More details can be found in the official org-formation github repo: `sudo org-formation init organization.yml  --region (specified aws region) --profile (your profile name)` 
 
 
 
