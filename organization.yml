@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: 2010-09-09-OC
+Description: default template generated for organization with master account 091551905372
+Organization:
+  DevelopmentOU:
+    Properties:
+      Accounts:
+        Properties:
+          AccountName: developmentAccount
+          RootEmail: "account email address goes here"
+        Type: OC::ORG::Account
+      OrganizationalUnitName: development
+    Type: OC::ORG::OrganizationalUnit
+  ManagementAccount:
+    Properties:
+      AccountId: "main account id goes here"
+      AccountName: "main account name goes here"
+      Alias: firsttestaliasnamechange
+      RootEmail: "main account email address goes here"
+    Type: OC::ORG::MasterAccount
+  OrganizationRoot:
+    Properties:
+      DefaultOrganizationAccessRoleName: OrganizationAccountAccessRole
+    Type: OC::ORG::OrganizationRoot
+  ProductionOU:
+    Properties:
+      Accounts:
+        Properties:
+          AccountName: productionAccount
+          RootEmail: "account email address goes here"
+        Type: OC::ORG::Account
+      OrganizationalUnitName: production
+    Type: OC::ORG::OrganizationalUnit
