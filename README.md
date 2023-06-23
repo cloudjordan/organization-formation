@@ -7,7 +7,7 @@ This project demonstrates the use of AWS OrgFormation and Python to manage AWS O
 
 The project showcases the following:
 
-- **AWS OrgFormation**: A third-party tool available on GitHub that enables Infrastructure as Code for AWS Organizations allowing automation of account creation and resource provisioning. 
+- **AWS OrgFormation**: A third-party tool available on GitHub that enables Infrastructure as Code for AWS Organizations allowing automation of account creation and resource provisioning. For more details, check the official github repository for org-formation. 
 
 In my example, I have a main admin account, production account and development account. The production and development accounts exist in their own organizational units within AWS Organizations.
 
